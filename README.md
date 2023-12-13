@@ -1,4 +1,4 @@
-# ScottPlot
+# ScottPlot 
 
 [![CI](https://github.com/ScottPlot/ScottPlot/actions/workflows/ci.yaml/badge.svg)](https://github.com/ScottPlot/ScottPlot/actions/workflows/ci.yaml)
 [![](https://img.shields.io/nuget/dt/scottplot?color=004880&label=Downloads&logo=NuGet)](https://www.nuget.org/packages/ScottPlot/)
