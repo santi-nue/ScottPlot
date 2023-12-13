@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <!-- targets must be in this order for the control to appear in the toolbox -->
-        <TargetFrameworks>net6.0-windows;net462</TargetFrameworks>
+        <TargetFrameworks>net8.0-windows</TargetFrameworks>
         <Nullable>enable</Nullable>
         <UseWindowsForms>true</UseWindowsForms>
         <ImplicitUsings>disable</ImplicitUsings>
