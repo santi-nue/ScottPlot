@@ -1,8 +1,15 @@
-name: ScottPlot 5 Deploy
+# This workflow tests all code after any change to the main branch
+
+name: CI
 
 on:
   workflow_dispatch:
-
+  push:
+    branches:
+      - main
+    paths:
+      - src/**
+      
 env:
   DOTNET_VERSION: "8.0.x"
   TEST_PROJECT_FOLDER: "src/ScottPlot5/ScottPlot5 Tests/"
