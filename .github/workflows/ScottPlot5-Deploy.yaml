@@ -60,7 +60,17 @@ jobs:
           dotnet restore
           dotnet build --configuration Release
 
+      - name: 🚀 Deploy Demo Launcher
+        working-directory: "src/ScottPlot5/ScottPlot5 Demos/ScottPlot5 Demo Launcher/DemoLauncher"
+        run: |
+          dotnet restore
+          dotnet build --configuration Release
 
+      - name: 🚀 Deploy Winforms Demo
+        working-directory: "src/ScottPlot5/ScottPlot5 Demos/ScottPlot5 WinForms Demo"
+        run: |
+          dotnet restore
+          dotnet build --configuration Release
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
